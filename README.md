@@ -1,7 +1,10 @@
 # Social Network API (NoSQL)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 ## Table of Contents
 - [Description](#description)
+- [Demo](#demo)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
@@ -34,6 +37,20 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
+
+## Demo 
+
+<img width="1110" alt="Screenshot 2023-11-30 at 9 01 35 PM" src="https://github.com/Kingwizard96/expert-engine/assets/132643725/8b3dba1c-43c4-4f89-891c-f268e885caae">
+
+
+<img width="1110" alt="Screenshot 2023-11-30 at 8 59 48 PM" src="https://github.com/Kingwizard96/expert-engine/assets/132643725/a4f5f7a7-aa27-44de-bffe-a8bfec5a4e0e">
+
+
+<img width="1110" alt="Screenshot 2023-11-30 at 9 04 09 PM" src="https://github.com/Kingwizard96/expert-engine/assets/132643725/cfdd84c5-c5a4-4a01-90f4-4060cbfd5ee9">
+
+
+
+https://drive.google.com/file/d/1QXQ8T1DgVgi2SfnKXxlmR0E25EvBi_m1/view
 
 
 ## Installation

@@ -1,8 +1,14 @@
-const { connect } = require('mongoose');
+const mongoose = require("mongoose");
 
-// Replace the uri string with your MongoDB deployment's connection string.
-const connectionString ='mongodb://localhost:27017/your_db_name';
 
-connect(connectionString);
+mongoose.connect(
+    process.env.MONGODB_URI || "mongodb://localhost:27017/social-network",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  );
 
-module.exports = connection;
+  mongoose.set("debug", true);
+  
+  module.exports = mongoose.connection;

@@ -13,8 +13,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.3",
-    "mongoose": "^6.2.9"
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
